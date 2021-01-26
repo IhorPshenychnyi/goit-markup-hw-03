@@ -34,6 +34,10 @@ img {
   display: block;
 }
 
+a {
+  display: block;
+}
+
 .list {
   list-style: none;
 }
@@ -304,8 +308,12 @@ img {
   color: var(--white-opacity-color);
 }
 
-.contact-info-list-item {
-  margin-top: 6px;
+.contact-info-list {
+  margin-top: 9px;
+}
+
+.contact-info-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /* ========== Портфолио ==========*/
@@ -361,8 +369,11 @@ img {
 
 .portfolio-list-content {
   padding: 20px 24px;
-  outline: 1px solid #eeeeee;
   background-color: var(--white-color);
+}
+
+.portfolio-list-link {
+  outline: 1px solid #eeeeee;
 }
 
 .portfolio-list-title {
