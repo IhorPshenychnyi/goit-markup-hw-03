@@ -299,8 +299,11 @@ a {
   background-color: var(--dark-bg-color);
 }
 
-.footer-address {
+.address {
   margin-top: 20px;
+}
+
+.footer-address {
   color: var(--white-color);
 }
 
@@ -365,15 +368,12 @@ a {
 
 .portfolio-list-item {
   margin: 15px;
+  outline: 1px solid #eeeeee;
 }
 
 .portfolio-list-content {
   padding: 20px 24px;
   background-color: var(--white-color);
-}
-
-.portfolio-list-link {
-  outline: 1px solid #eeeeee;
 }
 
 .portfolio-list-title {
